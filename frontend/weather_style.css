@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  height: 100vh;
+}
+
+.weather_element {
+  background-color: #d3d3d3;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+}
+
+.day {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.max_temp {
+  font-size: 1.2rem;
+}
+
+.min_temp {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.icon {
+  width: 100px;
+}
